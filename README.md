@@ -2,7 +2,7 @@
 
 Informed optimal path thresholds (iOPT) for compound hot, dry and windy days.
 
-iOPT extends the optimal path threshold method (OPT; Zhao, Horvat & Gao, 2025) in two ways. The threshold grid is spaced evenly in rarity, r = -ln(1 - a), so that rare events are well resolved. Exactly N = round(p_t × n) days are selected, so every event definition has the same number of days. One threshold, here daily maximum temperature, can also be moved toward a physical value while N stays fixed.
+iOPT extends the optimal path threshold method (OPT; Zhao, Horvat & Gao, 2025) in three ways. The threshold grid is spaced evenly in rarity, r = -ln(1 - a), so that rare events are well resolved. Exactly N = round(p_t × n) days are selected, so every event definition has the same number of days. One threshold, here daily maximum temperature, can also be moved toward a physical value while N stays fixed.
 
 ## Files
 
@@ -10,7 +10,7 @@ iOPT extends the optimal path threshold method (OPT; Zhao, Horvat & Gao, 2025) i
 |---|---|
 | `iopt.py` | The method (numpy only) |
 | `run_example.py` | Runs iOPT for one county |
-| `example_county.csv` | Daily gridMET data at the centroid of Winnebago County, Illinois (FIPS 17201), 1980–2025 |
+| `example_county.csv` | Daily gridMET data at Winnebago County, Illinois (FIPS 17201), 1980–2025 |
 | `output/` | Results of `run_example.py` |
 
 ## Run

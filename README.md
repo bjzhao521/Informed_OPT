@@ -72,7 +72,3 @@ The example data are from gridMET (Abatzoglou, 2013), extracted at the county ce
 - Abatzoglou, J. T. (2013). Development of gridded surface meteorological data for ecological applications and modelling. *International Journal of Climatology*, 33, 121–131.
 - Allen, R. G., Pereira, L. S., Raes, D., & Smith, M. (1998). *Crop evapotranspiration: Guidelines for computing crop water requirements*. FAO Irrigation and Drainage Paper 56. FAO, Rome.
 - Zhao, B., Horvat, C., & Gao, H. (2025). An optimal path threshold method for rigorously identifying extreme climate events. *Environmental Research Letters*, 20, 024048.
-
-## License
-
-MIT
